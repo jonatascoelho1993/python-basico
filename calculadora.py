@@ -1,3 +1,7 @@
 print("Bem vindo a calculadora de operções basicas!")
 print("Digite o numero referente a operação desejada:")
 print("1:Soma \n2:Subtração \n3:Multiplicação \n4:Divisão")
+operacao = input("Operação: ")
+numero1 = input("Digite o primeiro numero: ")
+numero2 = input("Digite o segundo numero: ")
+print(numero1 + operacao + numero2)
